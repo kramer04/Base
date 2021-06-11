@@ -20,12 +20,14 @@ private:
   Gtk::VBox boiteV;
   Gtk::ButtonBox boutonBox;
   Gtk::Box hbox1, hbox2, hbox3;
-  Gtk::Button resultat, quit;
+  Gtk::Button resultat, quit, efface;
   Gtk::Label un, deux, trois;
   Gtk::Entry zoneBase, zoneNombre, zoneResultat;
 
   void quitte();
   void affiche_resultat();
   void max16();
+  void min_max_long();
+  void clear();
 };
 #endif
